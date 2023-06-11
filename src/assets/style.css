@@ -325,7 +325,9 @@ body.nav-active { overflow: hidden; }
   background-color: var(--bg-oxford-blue-2);
   z-index: 4;
 }
-
+.branding img{
+  width: 126px;
+ }
 .header.active {
   padding-block: 8px;
   box-shadow: var(--shadow-1);
@@ -1273,9 +1275,7 @@ body.nav-active { overflow: hidden; }
   /**
    * HEADER
    */
-   .branding img{
-    width: 126px;
-   }
+   
   .nav-open-btn,
   .navbar-top,
   .navbar-bottom,
